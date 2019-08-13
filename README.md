@@ -1,2 +1,2 @@
 # SwiftTuning
-SwiftTuning is an approach to auto-tuning 
+Swift-Configuration is a description of the configuration options for swift
