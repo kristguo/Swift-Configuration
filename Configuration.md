@@ -1,6 +1,6 @@
 # A description of the configuration options for swift
 
-###                                               Table 1: Description of the 27 Flink configuration parameters
+###  <div align = "center">Table 1: Description of the 27 Flink configuration parameters</div>
 
 | **Confifiguration Parameters—Description**                   | Abbr. | Range     | Default              		|
 | :----------------------------------------------------------- | ----- | --------------- | -------------------- |
