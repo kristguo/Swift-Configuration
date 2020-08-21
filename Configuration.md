@@ -1,4 +1,4 @@
-# A description of the configuration options for swift
+# <div align = "center">A description of the configuration options for swift</div>
 
 ###  <div align = "center">Table 1: Description of the 27 Flink configuration parameters</div>
 
