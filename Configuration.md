@@ -2,7 +2,6 @@
 
 ###  <div align = "center">Table 1: Description of the 27 Flink configuration parameters</div>
 
-<font size=1>
 | **Confifiguration Parameters—Description**                   | Abbr. | Range     | Default              		|
 | :----------------------------------------------------------- | ----- | --------------- | -------------------- |
 | **parallelism.default**-The default parallelism to use for programs that have no parallelism specifified. | PLDT  | 1-12            | 1                    |
@@ -32,11 +31,11 @@
 | **compiler.delimited-informat.max-line-samples** - The maximum number of line samples taken by the compiler for delimited inputs. | CDIA  | 9 - 20          | 10                   |
 | **compiler.delimited-informat.min-line-samples** - The minimum number of line samples taken by the compiler for delimited inputs. | CDII  | 2-8             | 2                    |
 | **compiler.delimited-informat.max-sample-len** - The maximal length of a line sample that the compiler takes for delimited inputs. | CDAL  | 1M - 10M        | 2M                   |
-</font>
+
 
 
 ###   <div align = "center">Table 2: Description of the 34 Spark configuration parameters</div>                              
-<font size=13>
+
 | **Confifiguration Parameters—Description**                   | <div style="width:50px">Range</div>           | Default |
 | ------------------------------------------------------------ | --------------- | ------- |
 | **spark.reducer.maxSizeInFlight**—Maximum size of map outputs to fetch simultaneously from each reduce task, in MB. | 2–128           | 48      |
@@ -73,4 +72,3 @@
 | **spark.default.parallelism**—The largest number of partitions in a parent RDD for distributed shufflfle operations. | 8–50            | #       |
 | **spark.memory.offHeap.enabled**—If true, Spark will attempt to use off-heap memory for certain operations. | true,false      | false   |
 | **spark.memory.offHeap.size**—The absolute amount of memory which can be used for off-heap allocation, in MB. | 10–1000         | 0       |
-</font>
