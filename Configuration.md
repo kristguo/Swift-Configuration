@@ -2,7 +2,7 @@
 
 ###  <div align = "center">Table 1: Description of the 27 Flink configuration parameters</div>
 
-| **Confifiguration Parameters—Description**                   | Abbr. | Range     | Default              		|
+|<font size=1> **Configuration Parameters—Description**</font>                   | <font size=1>Abbr.</font> | <font size=1>Range </font>    | Default              		|
 | :----------------------------------------------------------- | ----- | --------------- | -------------------- |
 | **parallelism.default**-The default parallelism to use for programs that have no parallelism specifified. | PLDT  | 1-12            | 1                    |
 | **jobmanager.heap.mb** - JVM heap size (in megabytes) for the JobManager. | JMHP  | 1024-6144       | 1024                 |
