@@ -34,9 +34,9 @@
 
 
 
-###                                               Table 2: Description of the 34 Spark configuration parameters
+###   <div align = "center">Table 2: Description of the 34 Spark configuration parameters</div>                              
 
-| **Confifiguration Parameters—Description**                   | Range           | Default |
+| **Confifiguration Parameters—Description**                   | <div style="width:50px">Range</div>           | Default |
 | ------------------------------------------------------------ | --------------- | ------- |
 | **spark.reducer.maxSizeInFlight**—Maximum size of map outputs to fetch simultaneously from each reduce task, in MB. | 2–128           | 48      |
 | **spark.shufflfle.fifile.buffer**—Size of the in-memory buffer for each shufflfle fifile output stream, in KB. | 2–128           | 32      |
